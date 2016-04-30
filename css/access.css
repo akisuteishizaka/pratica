@@ -1,0 +1,110 @@
+@charset "utf-8";
+
+
+/*
+
+ CSS Document 
+ 
+ praticaのアクセスページファイル
+ 
+ access.css　
+ 
+ 作成 2012.02.4
+ 
+ */
+ 
+ /*アクセス　エリア　設定　ここから*/
+
+
+#access {
+	margin: 200px 0 0 0;
+}
+
+#map_divsion {
+	margin: 20px 0 0 20px;
+	height: 280px;
+	width: 320px;
+	background: url(../images/contents/google_map_bg.png) no-repeat left top;
+}
+
+#map_canvas {
+	position: absolute;
+	top: 100px;
+	left: 40px;
+	width: 280px;
+	height: 230px;
+}
+
+*html #map_canvas {
+	position: absolute;
+	top: 90px;
+	left: 40px;
+	width: 280px;
+	height: 230px;
+	
+}
+
+
+
+
+
+
+#accessMap {
+	width: 100%;
+	height: 400px;
+	margin: 20px 0;
+	background: url(../images/main_contents_bg_broun/main_content_bg_broun.png);
+	position: relative;
+}
+
+.in_container {
+	position: relative;
+	top: 10px;
+	left: 10px;
+	width: 660px;
+	height: 380px;
+	background: url(../images/main_contents_bg_broun/main_content_bg_white.png);
+}
+
+*html .in_container {
+	position: relative;
+	top: 10px;
+	left: 0;
+}
+
+#accessMap h3 {
+	padding: 10px 0 0 10px;
+}
+
+*html #accessMap h3 {
+	margin: 10px 0 0 10px;
+	padding: 0;
+}
+
+
+
+.rightBox table {
+	margin: 0 0 0 30px;
+	width: 260px;
+	height: 230px;
+	background: url(../images/contents/access_store.png) no-repeat left top;
+	border-style: none;
+}
+
+.rightBox th {
+	width: 90px;
+	padding: 0 0 0 10px;
+	font-size: 105%;
+	font-weight: 600;
+	border-style: none;
+	color: #442c02;
+}
+
+.rightBox td {
+	width: 170px;
+	padding: 0 0 0 10px;
+	border-style: none;
+	font-size: 100%;
+	font-weight: 600;
+	color: #442c02;
+}

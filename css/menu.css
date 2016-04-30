@@ -1,0 +1,93 @@
+@charset "utf-8";
+
+
+/*
+
+ CSS Document 
+ 
+ praticaのメニューファイル
+ 
+ menu.css　
+ 
+ 作成 2012.02.4
+ 
+ */
+ 
+#menu {
+	margin: 200px 0 0 0;
+}
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+#menuText {
+	width: 100%;
+	height: 400px;
+	margin: 20px 0;
+	background: url(../images/main_contents_bg_broun/main_content_bg_broun.png);
+	position: relative;
+	
+}
+
+#menuText h3 {
+	padding: 10px 0 0 10px;
+}
+
+*html #menuText h3 {
+	margin: 10px 0 0 10px;
+	padding: 0;
+}
+
+#menu_rightBox {
+	position: absolute;
+	top: 70px;
+	right: 20px;
+	background: url(../images/contents/order_bg.png) no-repeat left top;
+	height: 300px;
+	width: 310px;
+}
+
+#menu_rightBox p {
+	width: 250px;
+	font-size: 85%;
+	margin: 20px 0 0 30px;
+	padding: 10px 0 0 0;
+}
+
+*html #menu_rightBox p {
+	width: 250px;
+	font-size: 85%;
+	margin: 20px 0 0 10px;
+}
+
+
+
+
+#menu_photo {
+	margin: 10px 0 0 30px;
+	padding: 0;
+}
+
+#menu_text {
+	margin: 0;
+	padding: 20px 0 0 30px;
+}
+
+
+
+*html #menu_photo {
+	margin: 20xp 0 0 0;
+	padding: 0;
+}
+
+*html #menu_text {
+	margin: 20px 0 0 0;
+	padding: 0;
+}
+

@@ -1,0 +1,165 @@
+@charset "utf-8";
+
+/*
+
+ CSS Document 
+ 
+ praticaの共通ファイル
+ 
+ common.css　
+ 
+ 作成 2012.02.4
+ 
+ */
+ 
+ /*リセット　スタイル　ここから*/
+ 
+html,body,h1,h2,h3,h4,h5,h6,p,pre,address,ul,li,ol,dl,dt,dd,tabel,th,td,blockquote,q,div {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+img {
+	border: none;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+a:active {
+	text-decoration: none;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	font-weight: normal;
+	line-height: 1.5;
+	letter-spacing: 0.1em;
+	color: #333;
+	background: #FFF1E3 url(../images/body/body_back.png) left top;
+	text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6,p,ul,li,dl,dt,dd,a,address,object,form,table,th,td.caption{
+	text-align: left;
+}
+
+
+#wrapper {
+	width: 980px;
+	margin: 10px auto 0;
+	position: relative;
+}
+
+#header {
+	float: left;
+	width: 280px;
+	position: absolute;
+	top: 0px;
+}
+
+*html #header {
+	float: left;
+	width: 280px;
+	position: absolute;
+	top: 0px;
+	left: 0;
+}
+
+#in_header {
+	width: 280px;
+	padding: 10px 0;
+	background: url(../images/main_contents_bg_broun/main_content_bg_broun.png);
+}
+
+
+*html #in_header {
+	width: 280px;
+	background: url(../images/main_contents_bg_broun/main_content_bg_broun.png);
+}
+
+#head_wrap {
+	margin: 0 0 0 10px;
+	width: 260px;
+	background: url(../images/main_contents_bg_broun/main_content_bg_white.png);
+}
+
+
+*html #head_wrap {
+	margin: 0 0 0 0px;
+	width: 260px;
+	background: url(../images/main_contents_bg_broun/main_content_bg_white.png);
+}
+
+#container {
+	float: right;
+	width: 680px;
+}
+
+#footer {
+	clear: both;
+	height: 150px;
+	width: 100%;
+	position: relative;
+}
+
+#footer_image {
+	width: 940px;
+	height: 150px;
+	margin: 0 auto;
+	background: url(../images/footer/footer.png) no-repeat left top;
+}
+
+#footer_color {
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	height: 30px;
+	background: #442c02;
+}
+
+
+#footer address {
+	position: absolute;
+	bottom: -2px;
+	left: 38%;
+}
+
+
+/*flash　エリア　設定　ここから*/
+
+.flashArea {
+	width: 680px;
+	height: 320px;
+	background: url(../images/top_image/top_image_bg.png) no-repeat left top;
+}
+
+.flashArea h2 {
+	padding: 20px 0 0 20px;
+}
+
+/*flash　エリア　設定　ここまで*/
+
+/*.contents　エリア　設定　ここから*/
+
+.contents {
+	clear: both;
+}
+
+/*.contents　エリア　設定　ここまで*/
+
+

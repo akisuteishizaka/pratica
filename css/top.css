@@ -1,0 +1,328 @@
+@charset "utf-8";
+
+
+/*
+
+ CSS Document 
+ 
+ praticaのトップページファイル
+ 
+ top.css　
+ 
+ 作成 2012.02.4
+ 
+ */
+
+/* トップ　の　指定　ここから*/
+
+#logo {
+	width: 100%;
+	margin: 0px 0 0 10px;
+	padding: 10px 0 0 0;
+}
+
+*html #logo {
+	width: 100%;
+	margin: 0 0 0 10px;
+	padding: 10px 0 0 0;
+}
+
+#logo a {
+	display: block;
+	overflow: hidden;
+	width: 240px;
+	height: 0 !important;
+	height /**/: 120px;
+	padding-top: 120px;
+	background: url(../images/logo/pratica_logo.png) no-repeat left top;
+}
+
+#logo a:link {
+	background-position: 0 0;
+}
+
+#logo a:hover {
+	background-position: -240px 0;
+}
+
+/* トップ　の　指定　ここまで*/
+
+/*Gnavi　設定　ここから*/
+
+#Gnavi {
+	width: 240px;
+	margin: 93px 0 0 10px;
+	padding: 0 0 10px 0;
+}
+
+
+*html #Gnavi {
+	width: 240px;
+	margin: 93px 0 0 0;
+}
+
+#Gnavi li {
+	margin: 0 0 10px 0;
+	padding: 0;
+}
+
+/*Gnavi　個別*/
+
+/*#go_home　ここから*/
+
+#go_home a{
+	display: block;
+	overflow: hidden;
+	width: 240px;
+	height: 0 !important;
+	height /**/: 60px;
+	padding-top: 60px;
+	background: url(../images/Gnavi/Gnav_homei.png) no-repeat left top;
+}
+
+#go_home a:link {
+	background-position: 0 0;
+}
+
+#go_home a:visited {
+	background-position: -240px 0;
+}
+
+#go_home a:hover {
+	background-position: -480px 0;
+	
+}
+
+#go_home a:active {
+	background-position: -720px 0;
+	
+}
+
+
+/*#go_home　ここまで*/
+/*#go_access　ここから*/
+
+#go_access a{
+	display: block;
+	overflow: hidden;
+	width: 240px;
+	height: 0 !important;
+	height /**/: 60px;
+	padding-top: 60px;
+	background: url(../images/Gnavi/Gnav_accessi.png) no-repeat left top;
+}
+
+#go_access a:link {
+	background-position: 0 0;
+}
+
+
+#go_access a:visited {
+	background-position: -240px 0 ;
+}
+
+#go_access a:hover {
+	background-position: -480px 0;
+	
+}
+
+#go_access a:active {
+	background-position: -720px 0;
+	
+}
+
+
+/*#go_access　ここまで*/
+/*#go_menu　ここから*/
+
+#go_menu a{
+	display: block;
+	overflow: hidden;
+	width: 240px;
+	height: 0 !important;
+	height /**/: 60px;
+	padding-top: 60px;
+	background: url(../images/Gnavi/Gnav_menui.png) no-repeat left top;
+}
+
+#go_menu a:link {
+	background-position: 0 0;
+}
+
+#go_menu a:visited {
+	background-position: -240px 0;
+}
+
+#go_menu a:hover {
+	background-position: -480px 0;
+	
+}
+
+#go_menu a:active {
+	background-position: -720px 0;
+	
+}
+
+
+/*#go_menu　ここまで*/
+
+/*#go_reservation　ここから*/
+
+#go_reservation a{
+	display: block;
+	overflow: hidden;
+	width: 240px;
+	height: 0 !important;
+	height /**/: 60px;
+	padding-top: 60px;
+	background: url(../images/Gnavi/Gnavi_reservation.png) no-repeat left top;
+}
+
+#go_reservation a:link {
+	background-position: 0 0;
+}
+
+#go_reservation a:visited {
+	background-position: -240px 0;
+}
+
+#go_reservation a:hover {
+	background-position: -480px 0;
+	
+}
+
+#go_reservation a:active {
+	background-position: -720px 0;
+	
+}
+
+
+/*#go_home　ここまで*/
+
+
+/*Gnavi　設定　ここまで*/
+
+
+
+/*homeContainer　エリア　設定　ここから*/
+
+#homeContainer {
+	width: 100%;
+	height: 400px;
+	margin: 20px 0;
+	background: url(../images/main_contents_bg_broun/main_content_bg_broun.png);
+	position: relative;
+}
+
+.in_container {
+	position: relative;
+	top: 10px;
+	left: 10px;
+	width: 660px;
+	height: 380px;
+	background: url(../images/main_contents_bg_broun/main_content_bg_white.png);
+}
+
+*html .in_container {
+	position: relative;
+	top: 10px;
+	left: 0;
+}
+
+
+/*welcome　エリア　設定　ここから*/
+
+.leftBox {
+	float: left;
+	width: 300px;
+}
+
+.leftBox h3 {
+	margin: 10px 0 0 10px;
+}
+
+.leftBox #welcome_text {
+	margin: 20px 0 0 20px;
+	width: 280px;
+	height: 240px;
+	background: url(../images/contents/top_page_welcome_bg.png) no-repeat left top;
+}
+
+.leftBox p {
+	width: 240px;
+	margin: 0;
+	padding: 30px 0 0 20px;
+	font-size: 85%;
+	color: #442c02;
+	font-weight: bold;
+}
+
+.leftBox strong {
+	color: #ff4242;
+}
+
+*html .leftBox p {
+	width: 240px;
+	margin: 30px 0 0 0;
+	padding: 0px 0 0 0px;
+	font-size: 85%;
+	color: #442c02;
+	font-weight: bold;
+}
+
+
+/*welcome　エリア　設定　ここまで*/
+
+
+/*whats news　エリア　設定　ここから*/
+
+.rightBox {
+	float: right;
+	width: 310px;
+}
+
+.rightBox h3 {
+	margin: 10px 10px 0 0px;
+}
+
+.rightBox ul {
+	margin: 20px 0 0 20px;
+	width: 240px;
+	font-size: 85%;
+}
+
+*html .rightBox ul {
+	margin: 20px 0 0 0;
+	padding: 0;
+	width: 240px;
+	font-size: 85%;
+}
+
+.rightBox li {
+	hegith: 25px;
+}
+
+.rightBox dl {
+	width: 240px;
+}
+
+.rightBox dt {
+	float: left;
+	height: 20px;
+	width: 100px;
+}
+
+.rightBox dd {
+	float: right;
+	height: 20px;
+	width: 140px;
+}
+
+
+/*whats news　エリア　設定　ここまで*/
+
+/*homeContainer　エリア　設定　ここまで*/
+
+
+
+
